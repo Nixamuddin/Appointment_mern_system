@@ -54,5 +54,5 @@ Backend	Node.js, Express.js
 Database	MongoDB
 Authentication	JWT
 Emails	NodeMailer
-Deployment	Vercel / Render / 
+Deployment	Vercel / Render / DigitalOcean (optional)
 Version Control	Git + GitHub
