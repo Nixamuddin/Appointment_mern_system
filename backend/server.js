@@ -12,7 +12,7 @@ const app=express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 dotenv.config();
-app.use(cors({origin:"*", credentials:true}));
+app.use(cors({origin:"https://appointment-mern-system.onrender.com/", credentials:true}));
 const __dirname=path.resolve();
 app.use("/api/v1/auth",AuthRoutes)
 app.use("/api/v1/providers",ProviderRoutes);
